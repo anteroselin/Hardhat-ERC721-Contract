@@ -1,0 +1,12 @@
+Misson: emulate the family system
+1. Each character has name (name: string, gender: uint8)
+2. Add a creating a character function (params: name, gender)
+3. Add a function which creates a child from father and mother
+4. Add a updating a character function which changes the name
+5. Add a function which gets parents, return type: (father, mother)
+6. Add a function which gets children from father and mother
+7. Add a function which gets children from tokenId
+
+Hint: Characters should be stored in array or mapping(uint256 => xxx)
+Each character should be described in struct type. (name, gender)
+The key of array or map is called "TokenId"
